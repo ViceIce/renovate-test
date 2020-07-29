@@ -1,5 +1,5 @@
 FROM traefik:1.7.21-alpine@sha256:c6ce83d760f3b8345f733e5c683150fcbb2be562320d770ef5b5b200430b73af
 
-FROM gitlab/gitlab-ce:13.1.0-ce.0
+FROM gitlab/gitlab-ce:13.1.0-ce.0@sha256:9ed6d06e4a176b1358aea3f3f8ad8f329aa699dbc7413ec89beba2bc29a38e70
 
-FROM gitlab/gitlab-runner:alpine-v13.1.0
+FROM gitlab/gitlab-runner:alpine-v13.1.0@sha256:a5b335f0ec72c7e2783c761bb52ae87b172818d95956b6c7d51ebb75c2886f7f
